@@ -35,7 +35,6 @@ class Header extends Component {
             <Fragment>
                 <header>
                     <form onSubmit={this.onSubmit}>
-                        <label htmlFor="item"></label>
                         <input type="text" 
                             autoFocus 
                             autoComplete="off"
@@ -43,8 +42,9 @@ class Header extends Component {
                             id="item" name="todo_item" onChange={this.onChange}
                             value={this.state.task}
                             ref={this.input}
+                            aria-label="Type a task"
                         />
-                        <button id="add" type="submit">
+                        <button id="add" type="submit" aria-label="Add a task">
                             <i className="fa fa-plus text-white fs-19"></i>
                         </button>
                     </form>

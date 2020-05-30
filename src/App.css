@@ -212,6 +212,10 @@ ul.todo#completed:after {
     color: #aaa;
 }
 
+.d-none {
+    display: none;
+}
+
 @media screen and (min-width: 576px) {
     .container {
         padding: 15px 50px;

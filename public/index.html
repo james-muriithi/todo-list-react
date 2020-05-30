@@ -17,11 +17,19 @@
     <link rel="mask-icon" href="%PUBLIC_URL%/images/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.ico">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="" />
+    <link rel="preconnect" href="https://stackpath.bootstrapcdn.com" crossorigin="anonymous" />
     <!-- css -->
     <!-- Roboto font embed -->
-    <link defer href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    </noscript>
     <!-- font awesome icons -->
-    <link defer href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="preload" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </noscript>
 
     <title>Todo List App</title>
 </head>
