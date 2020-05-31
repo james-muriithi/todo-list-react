@@ -1,6 +1,6 @@
 {
-    "name": "Todo",
-    "short_name": "Todo",
+    "name": "To-do",
+    "short_name": "To-do",
     "icons": [{
             "src": "images/android-chrome-192x192.png",
             "sizes": "192x192",
@@ -15,5 +15,5 @@
     "theme_color": "#08265c",
     "background_color": "#08265c",
     "display": "standalone",
-    "start_url": "/todo-list-react"
+    "start_url": "/"
 }
