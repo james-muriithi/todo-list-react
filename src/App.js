@@ -15,7 +15,7 @@ class App extends React.Component {
       todos: [],
       completed: []
     };
-    const {todos, completed} = data
+    let {todos, completed} = data
     if (!todos) todos = [];
     if(!completed) completed = [];
     

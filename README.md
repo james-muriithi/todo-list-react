@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1e24282-9624-4f24-ae6a-46039438b40e/deploy-status)](https://app.netlify.com/sites/my-todolistapp/deploys)
+
 # Todo List App
 A simple todo list app built in react 
 
