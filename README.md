@@ -3,6 +3,8 @@ A simple todo list app built in react
 
 ![](screenshot.png)
 
+![](screenshot2.png)
+
 ## Available Scripts
 
 In the project directory, you can run:

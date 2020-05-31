@@ -117,7 +117,6 @@ header button {
 ul.todo {
     width: 100%;
     float: left;
-    display: flex;
     justify-content: center;
 }
 
