@@ -15,5 +15,5 @@
     "theme_color": "#08265c",
     "background_color": "#08265c",
     "display": "standalone",
-    "start_url": "/"
+    "start_url": "/todo-list-react"
 }
