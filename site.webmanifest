@@ -1,0 +1,19 @@
+{
+    "name": "To-do",
+    "short_name": "To-do",
+    "icons": [{
+            "src": "images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#08265c",
+    "background_color": "#08265c",
+    "display": "standalone",
+    "start_url": "/"
+}
