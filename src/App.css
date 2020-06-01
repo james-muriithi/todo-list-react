@@ -141,12 +141,18 @@ ul.todo li {
     word-break: break-word;
 }
 
+ul.todo li span {
+    float: right;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
 ul.todo li:last-of-type {
     margin: 0;
 }
 
 ul.todo li .buttons {
-    width: 100px;
+    max-width: 100px;
     height: 50px;
     position: absolute;
     top: 0;
