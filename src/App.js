@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import './App.css';
 import Todos from "./components/Todos";
 import Header from './components/layouts/Header';
-import Dialog from './components/layouts/Dialog';
 import { v4 as uuidv4 } from 'uuid';
+const Dialog = lazy(() => import('./components/layouts/Dialog'));
 
 class App extends React.Component {
   state = {
@@ -112,9 +112,11 @@ class App extends React.Component {
           </ul>
         </div>
         {/* dialogue */}
-        <Dialog handleClose={this.handleClose} open={this.state.open} setReminder={this.setReminder} >
+        <Suspense fallback={<div></div>}>
+          <Dialog handleClose={this.handleClose} open={this.state.open} setReminder={this.setReminder} >
 
-        </Dialog>
+          </Dialog>
+        </Suspense>
       </div>
     );
   }
