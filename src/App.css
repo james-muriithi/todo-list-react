@@ -109,6 +109,10 @@ header button {
     color: #25b99a;
 }
 
+.text-primary {
+    color: #3c4caa;
+}
+
 .container {
     width: 100%;
     padding: 15px;
@@ -147,10 +151,11 @@ ul.todo li .buttons {
     position: absolute;
     top: 0;
     right: 0;
+    margin-right: 10px;
 }
 
 ul.todo li .buttons button {
-    width: 50px;
+    width: 30px;
     height: 50px;
     float: left;
     background: none;
@@ -163,7 +168,7 @@ ul.todo li .buttons button {
     -moz-appearance: none;
 }
 
-ul.todo li .buttons button:last-of-type:before {
+ul.todo li .buttons button:not(:first-of-type):before {
     content: '';
     width: 1px;
     height: 30px;

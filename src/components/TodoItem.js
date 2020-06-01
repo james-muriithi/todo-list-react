@@ -13,6 +13,10 @@ class TodoItem extends Component {
                     <button className="complete" onClick={this.props.toggleCompleted.bind(this, id)} >
                         <i className="fa fa-check fs-19 text-success"></i>
                     </button>
+
+                    <button className="complete" onClick={this.handleClickOpen} >
+                        <i className="fa fa-bell fs-19 text-primary"></i>
+                    </button>
                 </div>
             </li>
         )
